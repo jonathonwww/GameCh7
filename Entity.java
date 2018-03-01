@@ -7,20 +7,14 @@ import java.util.*;
  */
 public abstract class Entity extends NameThing{
     
-    private int distraction;
     ArrayList<Item> items;
     
     public Entity(String name, String description, int xPos, int yPos) {
-        super(name,description,xPos,yPos);
+        super(name, description, xPos, yPos);
         items = new ArrayList<Item>();
     }
     
     public ArrayList getArrayList() {
         return items;
-    }
-    
-    public void setArrayList(Item o){
-        int length = items.size();
-        items.add(o);
     }
 }
