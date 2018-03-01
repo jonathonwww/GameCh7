@@ -5,7 +5,7 @@ import java.util.*;
  * @author Jonathon 
  * @version 3/1/18
  */
-public abstract class Entity extends NameThing{
+public abstract class Entity extends NamedThing{
     
     ArrayList<Item> items;
     
